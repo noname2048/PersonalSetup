@@ -1,0 +1,21 @@
+{
+    "[python]" : {
+        "editor.formatOnSave": true
+    },
+    "[cpp]":{
+        "editor.formatOnSave": true
+    },
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+    "editor.tabCompletion": "off",
+    "breadcrumbs.enabled": true,
+    "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4}",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "C_Cpp.updateChannel": "Insiders"
+}
