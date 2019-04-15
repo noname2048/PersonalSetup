@@ -8,10 +8,12 @@
     "editor.fontLigatures": true,
 
     "window.zoomLevel": 0,
-    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    // "terminal.integrated.shell.linux": "/bin/bash",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "terminal.integrated.shell.osx": "/bin/bash",
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shell.osx": "iTerm.app",
+    // "terminal.integrated.shell.osx": "/bin/bash",
 
     "editor.formatOnSave": true,
     "files.autoSave": "off",
