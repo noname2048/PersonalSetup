@@ -1,45 +1,48 @@
 {
-  //"prettier.tabWidth": 4,
-  "editor.tabSize": 4,
-  "editor.insertSpaces": true,
-  "editor.detectIndentation": false,
+    //"prettier.tabWidth": 4,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
 
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
 
-  "breadcrumbs.enabled": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Material Theme Darker",
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Material Theme Darker",
 
-  "window.zoomLevel": 0,
-  "terminal.integrated.shell.linux": "/usr/bin/zsh",
-  // "terminal.integrated.shell.linux": "/bin/bash",
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-  "terminal.integrated.shell.osx": "iTerm.app",
-  // "terminal.integrated.shell.osx": "/bin/bash",
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    // "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shell.osx": "iTerm.app",
+    // "terminal.integrated.shell.osx": "/bin/bash",
 
-  "files.autoSave": "off",
-  "editor.formatOnSave": true,
+    "files.autoSave": "off",
+    "editor.formatOnSave": true,
 
-  // __ PYTHON __
-  "[python]": {
-    "editor.formatOnSave": true
-  },
-  //"python.pythonPath": "C:\\Users\\CSW95\\AppData\\Local\\Programs\\Python\\Python36",
+    // __ PYTHON __
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+    //"python.pythonPath": "C:\\Users\\CSW95\\AppData\\Local\\Programs\\Python\\Python36",
 
-  // __ CPP __
-  "[cpp]": {
-    "editor.formatOnSave": true
-  },
-  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4}",
+    // __ CPP __
+    "[cpp]": {
+        "editor.formatOnSave": true
+    },
+    "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4}",
 
-  // __ VIM __
-  "editor.tabCompletion": "off",
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ]
+    // __ VIM __
+    "editor.tabCompletion": "off",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingBrackets": "never"
 }
